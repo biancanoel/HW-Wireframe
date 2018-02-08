@@ -1,42 +1,46 @@
 body {
-    background: gray;
+    
+    width: 960px;
 }
 
 * {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background: #777;
 }
 
 div {
     
 }
-.container {
+.clear {
     position: relative; 
     width: 70%;
     margin: 0 auto;
 }
 
 .header {
-    background: dodgerblue;
+    background: #ebebeb;
     height: 60px;
 }
 
 .nav {
-    background: aliceblue;
+    background: #ebebeb;
     height: 60px;
     margin: 10px 0 20px 0;
 }
 
 .section {
-    background: red;
+    background: #ebebeb;
     height: 200px;
     width: 45%;
     position: relative;
 }
 
 .article {
-    background: lemonchiffon;
+    background: #ebebeb;
     height: 150px;
     width: 40%;
     position: absolute;
@@ -45,7 +49,7 @@ div {
 }
 
 .h1-h2-h3 {
-    background: green;
+    background: #ebebeb;
     position: relative;
     height: 40px;
     width: 80%;
@@ -53,19 +57,19 @@ div {
     left: 30px ;
 }
 
-.p {
-    background: rgb(255, 230, 192);
+p {
+    background: #ebebeb;
     height: 40px;
     position: relative;
     width: 80%;
-    top: 30px ;
+    top: 35px ;
     left: 30px ;
 
 }
 
 
 .aside {
-    background: goldenrod;
+    background: #ebebeb;
     height: 200px;
     width: 48%;
     float: right;
@@ -78,7 +82,7 @@ div {
 }
 
 .footer {
-    background: plum;
+    background: #ebebeb;
     height: 60px;
     position: relative;
     top: 10px;
