@@ -1,0 +1,85 @@
+body {
+    background: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div {
+    
+}
+.container {
+    position: relative; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+    background: dodgerblue;
+    height: 60px;
+}
+
+.nav {
+    background: aliceblue;
+    height: 60px;
+    margin: 10px 0 20px 0;
+}
+
+.section {
+    background: red;
+    height: 200px;
+    width: 45%;
+    position: relative;
+}
+
+.article {
+    background: lemonchiffon;
+    height: 150px;
+    width: 40%;
+    position: absolute;
+    bottom: 80px;
+    left: 17px;
+}
+
+.h1-h2-h3 {
+    background: green;
+    position: relative;
+    height: 40px;
+    width: 80%;
+    top: 30px;
+    left: 30px ;
+}
+
+.p {
+    background: rgb(255, 230, 192);
+    height: 40px;
+    position: relative;
+    width: 80%;
+    top: 30px ;
+    left: 30px ;
+
+}
+
+
+.aside {
+    background: goldenrod;
+    height: 200px;
+    width: 48%;
+    float: right;
+    position: absolute;
+    top: 150px;
+    left: 345px;
+    
+
+
+}
+
+.footer {
+    background: plum;
+    height: 60px;
+    position: relative;
+    top: 10px;
+}
